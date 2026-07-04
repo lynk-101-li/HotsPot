@@ -1,0 +1,6 @@
+candidate,iptm,ptm,rank_score,plddt_mean,plddt_min,pae_min_AtoB,pae_min_BtoA,glycan_site_1_dist_A,glycan_site_2_dist_A,contact_pairs,hbond_pairs,hydrophobic_pairs,decision
+Cand-A,0.90,0.88,0.90,95.4,81.5,1.12,1.06,13.38,17.31,312,14,9,priority_1
+Cand-B,0.89,0.88,0.89,95.6,77.1,1.28,1.30,9.14,14.11,298,12,8,priority_2
+Cand-C,0.86,0.86,0.86,93.5,75.2,1.38,1.39,7.49,18.40,271,10,7,priority_3
+Cand-D,0.90,0.89,0.90,94.6,79.3,1.10,0.97,18.20,3.48,368,17,11,downgraded_glycan
+Cand-E,0.71,0.83,0.73,82.9,51.9,3.68,4.56,,,185,5,3,excluded

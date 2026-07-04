@@ -1,0 +1,22 @@
+interface:
+  contact_cutoff_A: 5.0
+  hbond_cutoff_A: 3.5
+  hydrophobic_cb_cutoff_A: 6.5
+
+glycan_risk:
+  high_risk_A: 8.0
+  medium_risk_A: 15.0
+
+ranking:
+  iptm_threshold: 0.80
+  plddt_min_threshold: 70.0
+  pae_max_threshold: 2.5
+  weights:
+    iptm: 0.40
+    plddt_mean: 0.25
+    pae: 0.20
+    hbond: 0.15
+
+chains:
+  default_target: A
+  default_binder: B
